@@ -7,6 +7,8 @@
 
 ## Dataset
 Data Source: mavenanalytics
+
+
 The dataset contains historical sales data of a global electronics retailer, covering:
 
 - 62,884 retail transactions
@@ -14,7 +16,23 @@ The dataset contains historical sales data of a global electronics retailer, cov
 - 8 countries
 - 5 years of business data - From 2016 to 2021
 - 6 Tables (1 Fact Table , 5 Dimension Tables)
+
+
 The data includes customer, product, sales, store, and exchange rate information, supporting analysis at market, product, customer, and operational levels.
+
+
+## Key Insights
+
+1. **Market Performance:** The analysis showed that the USA contributed over 50% of total revenue, highlighting the importance of expanding sales in other markets.
+
+2. **Sales Trends:** Sales and profit grew steadily until 2019 before declining across major product categories, showing a noticeable downward trend, requiring additional business context to understand the decline.
+
+3. **Product Performance:** One product category consistently failed to generate meaningful profit throughout the analysis period, indicating that its long-term business value should be reviewed.That category was Games & Toys
+
+4. **Customer Behavior:** The business had very few high-value customers despite serving more than 15,000 customers. Only 6 customers spent above $40K.
+
+5. **Profitability:** Profit margins were similar across major product categories, showing that higher profits were mainly driven by stronger sales rather than higher margins.
+
 
 
 ## Report Snapshot (Power BI Desktop)
