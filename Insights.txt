@@ -1,0 +1,131 @@
+1. Profit by category - bar chart 
+Reason - Compare profitability across categories and support decisions on investment, pricing, cost optimization, and performance improvement.
+
+
+2. Sales and profit trend - Area chart
+I created a Sales and Profit Trend chart to analyze business performance over time. From 2016 to 2019, both sales and profit showed strong growth. Profit grew by 72% in 2018 and a further 43% in 2019, indicating a period of strong business expansion.
+
+However, the trend changed after 2019. In 2020, profit declined by around 49%, and in 2021 profit fell by approximately 75% compared to the previous year. This suggests that the business faced significant challenges after 2019.
+
+This visual helps management quickly identify growth periods and decline periods, allowing them to investigate the factors behind the sharp drop in performance and take corrective actions."
+
+Decision : 
+"I would drill down further by category, region, customer segment, or product to identify which areas contributed most to the decline in profit after 2019."
+
+
+
+
+3. Category wise comparison - to investigate loss after 2019 
+
+"After observing the overall decline in sales and profit after 2019, I performed a category-level analysis. I found that all major categories experienced significant declines. For example, Computers decreased from 4.2M to 2.2M, Cameras & Camcorders from 1.6M to 0.6M, and Cell Phones from 1.4M to 0.7M.
+
+Since the decline was consistent across all categories, this suggests the issue was not limited to a single product category. The root cause may be a broader business or market factor affecting overall sales performance. Further analysis would be required at the regional, customer, or operational level to identify the underlying reason."
+
+
+4. Profit by Countries (investigate 2019 to 2020
+us - 5.9m to 3.8 profit , uk 1.19 to 0.59m , germany 1.10m to 0.50m , canada 0.87m to 0.44 , australia , italy , ned , france , i didnt tell u about others but u see who has the bigger hand
+
+
+
+I checked performance by geography to see where the drop was happening. I found that all major regions declined after 2019.
+
+US profit fell from 5.9M to 3.8M, which is the biggest drop in value. UK, Germany, and Canada also almost reduced by half.
+
+Since every region shows a similar fall, the issue is not limited to one country. It looks like a wider problem affecting the whole business or overall market.
+
+
+
+
+
+
+
+
+
+Page 2 
+
+Scatter chart of profit margin 
+
+In your scatter chart:
+
+* **X-axis = Sales**
+* **Y-axis = Profit Margin %**
+* **Bubble size = Profit**
+
+So position means this:
+
+---
+
+### 1. Top-right (High Sales + High Margin)
+
+* Big and efficient business
+* Best scenario
+* Strong products/categories
+
+---
+
+### 2. Top-left (Low Sales + High Margin)
+
+* Small but efficient
+* Niche products
+* Good opportunity to scale
+
+---
+
+### 3. Bottom-right (High Sales + Low Margin)
+
+* Sells a lot but earns less per sale
+* Risk area
+* Needs pricing or cost fix
+
+---
+
+### 4. Bottom-left (Low Sales + Low Margin)
+
+* Weak area
+* Low demand + low efficiency
+* Usually not important for growth
+
+---
+
+### Bubble size meaning (important)
+
+* Big bubble = high total profit
+* Small bubble = low total profit
+
+So a point can be:
+
+* Top-right but small → efficient but low scale
+* Bottom-right but big → high sales still making money
+
+---
+
+### Simple way to read it
+
+```text id="c1m8qz"
+Right = sells more
+Up = earns better per sale
+Big = earns more total money
+```
+That’s all the bubble chart is showing.
+
+
+
+
+column chart for top products  - to identify revenue concentration risk 
+insight - The top 5 profit generating products contribute only to 0.64% of total profit , indicating a well distributed profit base with no heavy dependence on a few products.
+
+
+
+
+
+
+
+
+
+Interviewers usually want to know:
+
+Why this visual?
+What business question does it answer?
+What action can be taken from it?
+
+If you answer those three points, you're thinking like an analyst rather than someone who just dragged a chart onto a canvas because Power BI was sitting there waiting to be clicked.

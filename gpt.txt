@@ -1,0 +1,264 @@
+Understood.
+
+For the rest of this discussion, I'll evaluate your project like a hiring manager or senior data analyst reviewing a fresher candidate.
+
+My assessment so far:
+
+### What I like
+
+* You followed a realistic analytics pipeline:
+
+  * Raw Data → Pandas Cleaning → SQL Server → Power BI
+* You separated raw and cleaned datasets.
+* You used SQL Server instead of analyzing everything directly in Power BI.
+* You created a star schema instead of connecting tables randomly.
+* The project uses a multi-table business dataset, which is closer to real-world analytics work.
+
+### What concerns me
+
+* You said SQL analysis is incomplete.
+
+  * Not a major issue.
+  * I would expect at least 8-10 business-focused queries.
+* I haven't seen the dashboard yet.
+
+  * Dashboard quality will heavily influence my evaluation.
+* I haven't seen documented insights.
+
+  * Many candidates build charts but cannot explain business meaning.
+
+### If I received your resume today
+
+I would **not reject** it because the project is unfinished.
+
+I would ask:
+
+1. What cleaning did you perform?
+2. Why did you use SQL Server?
+3. Why did you create a star schema?
+4. What business insights did you discover?
+5. Which KPI would management care about?
+6. What challenges did you face?
+
+If you answer those confidently, the project is already interview-worthy.
+
+Continue with the dashboard details. That's where I can judge whether this looks like a strong portfolio project or just a collection of charts.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Page 1 
+
+
+As a hiring manager, I would say the page is heading in the right direction, but a few things need refinement.
+
+### First issue: Pie chart
+
+A pie chart with 8 countries is acceptable, but when one country has **53% share**, the main insight is not "market share by country".
+
+The insight is:
+
+> The business is heavily dependent on the USA market, which contributes more than half of total sales. The UK and Germany form the second tier of markets, while the remaining countries contribute relatively small shares.
+
+That is a business insight.
+
+---
+
+### Second issue: Monthly chart
+
+Your chart answers both:
+
+* Revenue trend over time
+* Peak sales months
+
+That's fine.
+
+The interesting finding is not the highest month.
+
+The interesting finding is:
+
+> Sales remained relatively stable above 2M in most months, but March and especially April experienced a significant decline. Sales recovered strongly afterwards, with January, February, and December consistently delivering the strongest performance.
+
+An interviewer is likely to ask:
+
+> Why did April drop?
+
+You can honestly say:
+
+> The dashboard identifies the decline, but additional business context would be required to determine the exact cause.
+
+Good analysts don't invent reasons.
+
+---
+
+## Text box 1 (Country/Market Insight)
+
+You can write:
+
+**Market Distribution Insights**
+
+* USA contributes approximately 53% of total sales, making it the dominant market.
+* UK and Germany are the next largest contributors with 13% and 9% share respectively.
+* Sales are geographically diversified across 8 countries, but revenue concentration remains high in the USA.
+* Any change in USA performance would have a significant impact on overall business results.
+
+---
+
+## Text box 2 (Sales Trend Insight)
+
+You can write:
+
+**Sales Trend Insights**
+
+* Sales remained above 2M for most months throughout the analysis period.
+* January, February, and December generated the strongest sales and profit performance.
+* March showed a moderate decline, while April recorded the lowest sales level at approximately 0.29M.
+* After April, sales recovered and returned to normal business levels.
+
+---
+
+### If I were reviewing this project
+
+Page 1 already answers:
+
+✅ Business size
+✅ Revenue overview
+✅ Market distribution
+✅ Monthly trends
+✅ Seasonality
+✅ YoY growth
+
+That's a valid executive summary page.
+
+I would not spend more time adding visuals here. I would focus on making the insights clear and then move to Product Performance and Store Performance pages. Those pages usually provide the strongest interview discussion points.
+
+
+
+
+Market Distribution Insights
+
+
+
+USA contributes approximately 53% of total sales, making it the dominant market.
+
+UK and Germany are the next largest contributors with 13% and 9% share respectively.
+
+Sales are geographically diversified across 8 countries, but revenue concentration remains high in the USA.
+
+Any change in USA performance would have a significant impact on overall business results.
+
+Text box 2 (Sales Trend Insight)
+
+
+
+You can write:
+
+
+
+Sales Trend Insights
+
+
+
+Sales remained above 2M for most months throughout the analysis period.
+
+January, February, and December generated the strongest sales and profit performance.
+
+March showed a moderate decline, while April recorded the lowest sales level at approximately 0.29M.
+
+After April, sales recovered and returned to normal business levels.\\\\
+
+
+Computers became the dominant profit driver after 2016 while most categories peaked in 2019 before declining in 2020.
+
+
+
+
+
+
+
+
+-------------------------- Page 2 Recommendations -------------
+
+Here's the analysis rewritten simply, with clear actions:
+
+---
+
+**The Big Picture**
+
+Every category grew steadily, hit its best year in 2019, then started falling. By 2021 profits collapsed — but this is likely because 2021 data is only a partial year, not a full collapse.
+
+---
+
+**What the Business Should Do:**
+
+**1. Put most of your money into Computers**
+It's your biggest earner by far — nearly 3x bigger than the next category at peak. More stock, more marketing, better supplier deals. This is your main product. Treat it like one.
+
+**2. Investigate Home Appliances urgently**
+It was your #1 category in 2016 but started losing ground before everyone else did. Something went wrong there specifically — maybe pricing, maybe competition, maybe product range. Find out why before investing more into it.
+
+**3. Make a decision on Games & Toys**
+It never made real money across 6 years. Either find out if there's a specific reason to keep it (loyal niche customers, low cost to maintain) — or cut it and redirect that energy elsewhere.
+
+**4. Don't panic about 2021**
+The 2021 numbers look like a disaster but are almost certainly incomplete data. Before making any major cuts or decisions, confirm whether 2021 is a full year or just a few months of data.
+
+**5. Understand what drove 2019's peak**
+Was it a specific product launch? A marketing push? Economic conditions? If you know what caused the peak, you know what to try and repeat.
+
+---
+
+Simple version: **back Computers, investigate Home Appliances, question Games & Toys, and clarify the 2021 data before making any big moves.**
+
+
+Computers became the leading profit category in 2017, while most categories continued growing and reached their peak in 2019
+
+Games & Toys failed to generate meaningful profit throughout the period, raising questions about its long-term value to the business.
+
+
+
+
+
+
+
+
+
+
+
+The business relies heavily on the USA market while experiencing a company-wide profitability decline in 2020.
+
+
+
+
+
+In your dataset:
+
+15,266 registered customers
+11,887 customers made at least one purchase
+
+So about 3,379 customers (≈22%) have no recorded purchases.
+
+This is actually a useful business insight. You can mention in your dashboard or presentation:
+
+"The customer master contains 15,266 registered customers, but only 11,887 have recorded purchases in the available sales data, indicating that approximately 22% of registered customers are inactive or have no recorded transactions."
+
+This is a realistic scenario in customer analytics and not a data error.

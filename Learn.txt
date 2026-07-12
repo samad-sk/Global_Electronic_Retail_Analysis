@@ -1,0 +1,293 @@
+Yes. Microsoft Power BI can join tables.
+
+But just because you *can* doesn’t mean you should turn it into a dumping ground.
+
+---
+
+## What Power BI actually does
+
+* You create **relationships** (not messy joins like SQL)
+* Then use **DAX** on top of that model
+
+---
+
+## Where to join tables (best practice)
+
+### ✔ In Microsoft SQL Server (preferred)
+
+* Heavy joins
+* Data shaping
+* Clean datasets
+
+---
+
+### ✔ In Power BI (only this)
+
+* Create relationships (star schema)
+* Small transformations if needed
+
+---
+
+## Why not rely fully on Power BI joins?
+
+* Becomes slow
+* Harder to debug
+* Looks amateur in interviews
+
+---
+
+## Clean pipeline (stick to it)
+
+* pandas → clean
+* SQL → join + analyze
+* Power BI → relationships + visuals + DAX
+
+---
+
+## Simple truth
+
+Power BI is for:
+
+* “Show insights”
+
+SQL is for:
+
+* “Prepare data properly”
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+“Perfect”? Relax. This isn’t art, it’s data. Nothing is perfect.
+
+## What you **can** confidently say
+
+Yes, if you’ve done:
+
+* Renamed columns properly
+* Fixed data types
+* Checked nulls
+* Looked at distributions (`describe()`)
+* Checked duplicates
+
+Then in an interview you can say:
+
+> “I performed data cleaning using pandas, including handling missing values, correcting data types, and standardizing column names.”
+
+That already puts you ahead of people who say “I cleaned the data” and pray no one asks how.
+
+---
+
+## What you should NOT claim
+
+* “Data is perfect” ❌
+* “No issues in dataset” ❌
+
+Because:
+
+* Missing delivery dates still exist
+* You didn’t validate against real-world truth
+* You didn’t deeply handle outliers yet
+
+---
+
+## Better way to say it
+
+> “I cleaned and prepared the dataset to make it analysis-ready, while noting limitations like missing delivery data.”
+
+That sounds:
+
+* honest
+* professional
+* not delusional
+
+---
+
+## Reality check
+
+Interviewers don’t expect perfection.
+
+They expect:
+
+* Awareness
+* Logic
+* Ability to explain decisions
+
+---
+
+You’re not building flawless data.
+
+You’re proving you **know what you’re doing**. That’s the whole game.
+
+
+
+
+
+You *could* organize like that… but that’s how beginners trap themselves.
+
+## Your idea
+
+* `sales_queries.sql`
+* `products_queries.sql`
+
+👉 Sounds logical… but:
+
+* most useful queries use **multiple tables**
+* you’ll end up confused where to put joins
+
+---
+
+## Better way (how actual projects do it)
+
+### Organize by **purpose**, not table
+
+```
+queries/
+│
+├── 01_data_checks.sql
+├── 02_joins.sql
+├── 03_analysis.sql
+├── 04_kpis.sql
+```
+
+---
+
+## What goes where
+
+### `01_data_checks.sql`
+
+* row counts
+* null checks
+* basic validation
+
+---
+
+### `02_joins.sql`
+
+* sales + products
+* sales + customers
+
+---
+
+### `03_analysis.sql`
+
+* revenue by category
+* sales trends
+* top products
+
+---
+
+### `04_kpis.sql`
+
+* total revenue
+* avg order value
+* delivery rate
+
+---
+
+## Why this is better
+
+Because real thinking is:
+
+> “What am I trying to find?”
+
+Not:
+
+> “Which table am I touching?”
+
+---
+
+## Reality
+
+If you organize by table:
+→ messy, fragmented thinking
+
+If you organize by purpose:
+→ structured, analyst mindset
+
+---
+
+You’re not managing files.
+You’re organizing **your thinking**.
+
+That’s the actual skill interviewers care about.
+
+
+
+
+
+Perfect. Since it’s your first time, focus on **business-relevant insights** rather than writing fancy SQL. Think like an analyst trying to understand the store.
+
+---
+
+### **1. Sales Overview**
+
+* Total sales and revenue over time (monthly, quarterly, yearly)
+* Average order value per order
+* Number of orders over time
+
+---
+
+### **2. Product Performance**
+
+* Top selling products by quantity and revenue
+* Category/subcategory performance (which product types make the most money)
+* Identify products with high cost but low sales
+
+---
+
+### **3. Customer Insights**
+
+* Number of unique customers
+* Sales by customer location (city, country, continent)
+* Repeat vs new customers
+
+---
+
+### **4. Store Performance**
+
+* Sales by store
+* Which stores contribute most to revenue
+* Delivery success (orders delivered vs missing delivery date)
+
+---
+
+### **5. Currency & Global Sales**
+
+* Sales by currency
+* Trends in revenue after converting to a base currency
+* See how international sales contribute to overall revenue
+
+---
+
+### **6. Orders & Delivery**
+
+* Average delivery time (delivery_date – order_date)
+* Orders pending delivery
+* Compare revenue from delivered vs undelivered orders
+
+---
+
+### **Extra Ideas for Analysis**
+
+* Profit per order and profit margin per product
+* Identify unusual trends (big spikes in sales, empty deliveries, missing customers)
+
+---
+
+Focus on **understanding the data and business story**, not fancy queries. Graphs and totals are enough for a first project.
+
+You want, I can suggest a **simple order of analysis** that builds logically from sales → products → customers → stores?
+

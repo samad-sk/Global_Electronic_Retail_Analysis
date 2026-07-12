@@ -1,0 +1,34 @@
+# Virtual environment
+GERA_venv/
+rap_venv/
+venv/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python compiled files
+*.pyd
+
+# Environment variables
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# Model files (optional)
+# Uncomment if you don't want to upload ML models
+# *.pkl
+# *.joblib
+
+# OS files
+.DS_Store
+Thumbs.db
