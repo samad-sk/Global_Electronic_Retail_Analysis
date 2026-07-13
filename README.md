@@ -1,7 +1,7 @@
-# Global Electronics Retail Performance
+# Global Electronics Retail Business Intelligence Report
 
 # Project Overview
-- This project is an end-to-end business intelligence solution developed for a global electronics retailer. The purpose of this project is to help stakeholders to understand the performance of the business at Market , Product and Customer level. 
+- This project is an end-to-end business intelligence solution developed for a global electronics retailer. The purpose of this project is to help stakeholders to understand business performance across market , product and customer level. 
 
 - The project follows a complete data analytics workflow where raw data was collected, cleaned, loaded into a database, analyzed, and visualized to identify trends, insights, and areas for improvement to support business decisions.
 
@@ -31,11 +31,31 @@ The data includes customer, product, sales, store, and exchange rate information
 
 4. **Customer Behavior:** The business had very few high-value customers despite serving more than 15,000 customers. Only 6 customers spent above $40K.
 
-5. **Profitability:** Profit margins were similar across major product categories, showing that higher profits were mainly driven by stronger sales rather than higher margins.
+5. **Profitability:** The difference in profit came mainly from sales performance, as profit margins remained consistent across major product categories.
 
+## Tech Stack 
+- Pandas : Data cleaning and preprocessing.
+- SQL Server (T-SQL) : Data Storage and business analysis using SQL queries.
+- Power Query : Data loading and transformation. 
+- Power BI : Data modeling, DAX measures, KPIs, and interactive report.
 
+## Report Pages
+
+**Page 1 – Business Overview**
+Provides an overview of business performance through KPIs, market contribution, and sales trends.
+
+**Page 2 – Product Performance**
+Analyzes product categories, brands, and profitability. Interactive bookmarks allow users to switch between overview and detailed analysis without leaving the page.
+
+**Page 3 – Customer & Delivery Analysis**
+Explores customer spending patterns, customer segmentation, geographic demand, and delivery performance.
 
 ## Report Snapshot (Power BI Desktop)
+
+The report consists of three interactive pages 
+1. business overview
+2. product performance
+3. customer analysis.
 <img width="1500" height="762" alt="Image" src="https://github.com/user-attachments/assets/deee78cd-f0c3-49d6-a845-bd21fbc51a15" />
 <img width="1407" height="787" alt="Image" src="https://github.com/user-attachments/assets/946ee023-441b-4d6e-9d9f-2920712261d0" />
 <img width="1412" height="794" alt="Image" src="https://github.com/user-attachments/assets/ca3019fa-9d98-4060-b430-399857fdd0c8" />
