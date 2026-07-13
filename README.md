@@ -51,6 +51,9 @@ Analyzes product categories, brands, and profitability. Interactive bookmarks al
 **Page 3 – Customer & Delivery Analysis**
 Explores customer spending patterns, customer segmentation, geographic demand, and delivery performance.
 
+- **Notebook:** [Data Cleaning Notebook](https://github.com/samad-sk/Global_Electronics_Retail_Analysis/blob/main/Data_cleaning.ipynb)
+- **Portfolio:** https://samad-sk.github.io/
+
 ## Report Snapshot (Power BI Desktop)
 
 The report consists of three interactive pages : 
