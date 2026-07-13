@@ -62,4 +62,4 @@ The report consists of three interactive pages :
 <img width="1407" height="787" alt="Image" src="https://github.com/user-attachments/assets/946ee023-441b-4d6e-9d9f-2920712261d0" />
 <img width="1412" height="794" alt="Image" src="https://github.com/user-attachments/assets/ca3019fa-9d98-4060-b430-399857fdd0c8" />
 <img width="1416" height="797" alt="Image" src="https://github.com/user-attachments/assets/1838dbda-3234-4903-8e60-d04153df15c3" />
-<img width="1410" height="791" alt="Image" src="https://github.com/user-attachments/assets/65a3e44f-c4d2-4464-86e5-01b12af11a89" />
+<img width="1416" height="797" alt="Image" src="https://github.com/user-attachments/assets/7542d060-7ea5-401f-a799-d78eadab1607" />
