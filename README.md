@@ -1,4 +1,4 @@
-# Global Electronics Retail Business Intelligence Report
+# Global Electronics Retail Performance Dashboard
 
 # Project Overview
 - This project is an end-to-end business intelligence solution developed for a global electronics retailer. The purpose of this project is to help stakeholders to understand business performance across market , product and customer level. 
