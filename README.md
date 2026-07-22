@@ -3,7 +3,7 @@
 # Project Overview
 - This project is an end-to-end business intelligence solution developed for a global electronics retailer. The purpose of this project is to help stakeholders to understand business performance across market , product and customer level. 
 
-- The project follows a complete data analytics workflow where raw data was collected, cleaned, loaded into a database, analyzed, and visualized to identify trends, insights, and areas for improvement to support business decisions.
+- The project follows a complete data analytics workflow where raw data was collected, cleaned using Pandas library, loaded into a SQL Server Database, analyzed using SQL queries , and visualized in Power BI to identify trends, insights, and areas for improvement to support business decisions.
 
 ## Dataset
 Data Source: [Maven Analytics – Global Electronics Dataset](https://mavenanalytics.io/data-playground/global-electronics-retailer)
