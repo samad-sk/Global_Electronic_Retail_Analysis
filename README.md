@@ -57,12 +57,12 @@ Explores customer spending patterns, customer segmentation, geographic demand, a
 ## Report Snapshot (Power BI Desktop)
 
 The report consists of three interactive pages : 
-1. Business Overview.
-2. Product & Brand Analysis.
-3. Customer Analysis.
+1. Overview.
+2. Products.
+3. Customers.
 
-<img width="1500" height="762" alt="Image" src="https://github.com/user-attachments/assets/deee78cd-f0c3-49d6-a845-bd21fbc51a15" />
-<img width="1407" height="787" alt="Image" src="https://github.com/user-attachments/assets/946ee023-441b-4d6e-9d9f-2920712261d0" />
-<img width="1412" height="794" alt="Image" src="https://github.com/user-attachments/assets/ca3019fa-9d98-4060-b430-399857fdd0c8" />
-<img width="1416" height="797" alt="Image" src="https://github.com/user-attachments/assets/1838dbda-3234-4903-8e60-d04153df15c3" />
-<img width="1416" height="797" alt="Image" src="https://github.com/user-attachments/assets/7542d060-7ea5-401f-a799-d78eadab1607" />
+<img width="1282" height="808" alt="Image" src="https://github.com/user-attachments/assets/9420d561-c881-472b-a791-fca919eca6e8" />
+<img width="1477" height="802" alt="Image" src="https://github.com/user-attachments/assets/a51619c2-f286-40e2-9212-1ff3d35c910c" />
+<img width="1477" height="802" alt="Image" src="https://github.com/user-attachments/assets/52e8d8f3-7884-4cb9-bee4-4361ca9ab9e7" />
+<img width="1482" height="805" alt="Image" src="https://github.com/user-attachments/assets/bbcc6296-421b-44ea-a4f2-e39215b8de5f" />
+<img width="1477" height="802" alt="Image" src="https://github.com/user-attachments/assets/59d7c726-be07-47cf-bdcc-21aa5758ee0c" />
